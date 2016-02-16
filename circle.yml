@@ -22,3 +22,4 @@ deployment:
     commands:
       - aws s3 sync html/ s3://st.toguma-days2016.com/ --delete
 
+
