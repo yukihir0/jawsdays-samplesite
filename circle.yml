@@ -16,10 +16,10 @@ deployment:
   production:
     branch: master
     commands:
-      - aws s3 sync html/ s3://<your s3 bucket>/ --delete
+      - aws s3 sync html/ s3://prod.yukihir0-jawsdays2016.jp/ --delete
   staging:
     branch: staging
     commands:
-      - aws s3 sync html/ s3://<your s3 bucket>/ --delete
+      - aws s3 sync html/ s3://stg.yukihir0-jawsdays2016.jp/ --delete
 
 
